@@ -1,0 +1,11 @@
+﻿---
+applications:
+-   name: pcf-config-dotnet-framework-transform-buildpack
+    stack: windows
+    buildpacks:
+    -   https://github.com/nycpivot/web-config-transform-buildpack/releases/download/web-config-transform-buildpack/Pivotal.Web.Config.Transform.Buildpack-win-x64-0.1.0.zip
+    -   hwc_buildpack
+    env:
+        "appSettings:name": "pcf-config-dotnet-framework-transform-buildpack"
+        "appSettings:environment": "production"
+        "connectionStrings:Default": "Data Source=ProdServer; Initial Catalog=ProdDatabase; UserId=johndoe; Password=password"
