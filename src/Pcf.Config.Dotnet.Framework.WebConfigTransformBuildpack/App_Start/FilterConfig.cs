@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Pcf.Config.Dotnet.Framework
+namespace Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack
 {
     public class FilterConfig
     {

@@ -2,7 +2,7 @@
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Pcf.Config.Dotnet.Framework
+namespace Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack
 {
     public class MvcApplication : System.Web.HttpApplication
     {

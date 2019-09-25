@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Pcf.Config.Dotnet.Framework
+namespace Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack
 {
     public class RouteConfig
     {

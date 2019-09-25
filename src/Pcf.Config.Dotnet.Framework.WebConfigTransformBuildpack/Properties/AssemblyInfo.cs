@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Pcf.Config.Dotnet.Framework")]
+[assembly: AssemblyTitle("Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Pcf.Config.Dotnet.Framework")]
+[assembly: AssemblyProduct("Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6a9f22ac-0257-491e-a91b-fc379c8e653c")]
+[assembly: Guid("d9782d1f-6439-4bb4-a40c-034c8c180563")]
 
 // Version information for an assembly consists of the following four values:
 //
