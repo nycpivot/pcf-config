@@ -1,0 +1,19 @@
+﻿---
+applications:
+-   name: pcf-config-web-config-transform-buildpack
+    stack: windows
+    buildpacks:
+    -   https://github.com/nycpivot/web-config-transform-buildpack/releases/download/web-config-transform-buildpack/Pivotal.Web.Config.Transform.Buildpack-win-x64-0.1.0.zip
+    -   hwc_buildpack
+    env:
+        "appSettings:name": "pcf-config-web-config-transform-buildpack"
+        "appSettings:environment": "production"
+        "connectionStrings:Default": "Data Source=ProdServer;Initial Catalog=ProdDatabase;UserId=johndoe;Password=password"
+        "client:IWcfService:address": "https://pcf-config-web-config-transform-buildpack.apps.pcfone.io/wcf"
+        "client:IWcfService:binding": "basicHttpsBinding"
+        "pcf:organization:name": "pcf-one"
+        "pcf:organization:space:name": "pcf-config"
+        "pcf:organization:quota:disk": "2GB"
+        "pcf:organization:quota:ram": "2GB"
+        "pcf:organization:space:app:name": "pcf-config"
+        "pcf:organization:space:service:name": "spring-config"

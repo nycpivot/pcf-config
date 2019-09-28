@@ -1,6 +1,7 @@
-﻿using System.Web.Mvc;
+﻿using System.Web;
+using System.Web.Mvc;
 
-namespace Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack
+namespace Pcf.Config.WebConfigTransformBuildpack
 {
     public class FilterConfig
     {

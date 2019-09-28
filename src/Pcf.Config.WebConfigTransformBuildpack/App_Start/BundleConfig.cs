@@ -1,6 +1,7 @@
-﻿using System.Web.Optimization;
+﻿using System.Web;
+using System.Web.Optimization;
 
-namespace Pcf.Config.Dotnet.Framework.WebConfigTransformBuildpack
+namespace Pcf.Config.WebConfigTransformBuildpack
 {
     public class BundleConfig
     {

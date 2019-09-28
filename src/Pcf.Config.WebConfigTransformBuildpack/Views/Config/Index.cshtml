@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Config";
+}
+
+<h2>Config</h2>
+
+<br />
+
+<h4>App Settings</h4>
+<pre>
+    &lt;appSettings&gt;
+        &lt;add key="name" value="@ViewBag.Name" /&gt;
+        &lt;add key="environment" value="@ViewBag.Environment" /&gt;
+    &lt;/appSettings&gt;
+</pre>
+
+<hr />
+
+<h4>Connection Strings</h4>
+<pre>
+    &lt;connectionStrings&gt;
+        &lt;add name="Default" connectionString="@ViewBag.ConnectionString" /&gt;
+    &lt;/connectionStrings&gt;
+</pre>
+
+<hr />
+
+<h4>Service Model</h4>
+<pre>
+    &lt;system.serviceModel&gt;
+        &lt;client&gt;
+            &lt;endpoint name="IWcfService" 
+                        address="@ViewBag.Address"
+                        binding="@ViewBag.Binding"
+                        contract="@ViewBag.Contract" /&gt;
+        &lt;/client&gt;
+    &lt;/system.serviceModel&gt;
+</pre>
+
+<hr />
+
+<h4>Custom Section</h4>
+<pre>
+    &lt;pcf&gt;
+        &lt;organization name="@ViewBag.OrganizationName"&gt;
+            &lt;space name="@ViewBag.SpaceName"&gt;
+                &lt;app name="@ViewBag.AppName" /&gt;
+                &lt;service name="@ViewBag.ServiceName" /&gt;
+            &lt;/space&gt;
+            &lt;quota disk="@ViewBag.DiskQuota" ram="@ViewBag.RamQuota" /&gt;
+        &lt;/organization&gt;
+    &lt;/pcf&gt;
+</pre>
